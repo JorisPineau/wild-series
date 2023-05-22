@@ -1,0 +1,45 @@
+@import url(navbar.scss);
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+:root {
+    --primary: rgb(120, 13, 47);
+    --secondary: rgb(255, 255, 230);
+    --light: rgb(255, 255, 255);
+    --dark: rgb(25, 25, 25);
+
+    --font-title: poppins;
+    --font-text: roboto --font-size1: 1rem;
+    --font-size2: 1.5rem;
+
+    --spacing-s: 1rem;
+    --spacing: 2rem;
+    --spacing-l: 4rem;
+}
+
+// $primary: #780D2F; 
+// $secondary: #FFF9E7; 
+// $light: #FFFFFF;
+
+// $title: poppins;
+// $text: roboto;
+
+// $semiBold: 600;
+// $medium: 500;
+// $regular: 400;
+
+
+// $fontSize1: 1rem;
+// $fontSize2: 1.5rem;
+
+// $spacingS: 1rem;
+// $spacing: 2rem;
+// $spacingL: 4rem;
+
+@import "~bootstrap/scss/bootstrap";
+
+
+.navbar-collapse {
+    flex-grow: 0;
+}

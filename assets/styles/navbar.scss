@@ -1,0 +1,16 @@
+nav {
+    background-color: var(--primary);
+}
+
+.title a {
+    color: var(--light);
+    font-family: var(--title);
+    font-weight: 600;
+    font-size: calc(var(--font-size2)*1.5);
+}
+
+.nav-item a {
+    color: var(--light);
+    font-family: var(--title);
+    font-weight: 500;
+}
